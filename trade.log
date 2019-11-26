@@ -1,0 +1,41 @@
+2019-11-08 17:48:09 INFO  c.hcl.trade.TradeprojectApplication - Starting TradeprojectApplication on LP-5CD9296CMC with PID 17968 (C:\Users\User1\Downloads\workspace\Muthu\tradeproject\target\classes started by User1 in C:\Users\User1\Downloads\workspace\Muthu\tradeproject)
+ 2019-11-08 17:48:09 INFO  c.hcl.trade.TradeprojectApplication - No active profile set, falling back to default profiles: default
+ 2019-11-08 17:48:09 INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\User1\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/User1/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/User1/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/User1/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/User1/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/User1/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/User1/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+ 2019-11-08 17:48:09 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2019-11-08 17:48:09 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2019-11-08 17:48:12 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+ 2019-11-08 17:48:12 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 234ms. Found 3 repository interfaces.
+ 2019-11-08 17:48:13 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019-11-08 17:48:14 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8096 (http)
+ 2019-11-08 17:48:14 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2019-11-08 17:48:14 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+ 2019-11-08 17:48:14 INFO  o.a.c.c.C.[.[localhost].[/trade] - Initializing Spring embedded WebApplicationContext
+ 2019-11-08 17:48:14 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5195 ms
+ 2019-11-08 17:48:15 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2019-11-08 17:48:15 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.6.Final}
+ 2019-11-08 17:48:16 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2019-11-08 17:48:16 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2019-11-08 17:48:17 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2019-11-08 17:48:17 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+ 2019-11-08 17:48:19 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2019-11-08 17:48:19 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2019-11-08 17:48:19 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2019-11-08 17:48:21 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2019-11-08 17:48:21 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+ 2019-11-08 17:48:21 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2019-11-08 17:48:22 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+ 2019-11-08 17:48:22 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+ 2019-11-08 17:48:22 INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+ 2019-11-08 17:48:22 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8096 (http) with context path '/trade'
+ 2019-11-08 17:48:22 INFO  c.hcl.trade.TradeprojectApplication - Started TradeprojectApplication in 14.779 seconds (JVM running for 17.121)
+ 2019-11-08 17:48:49 INFO  o.a.c.c.C.[.[localhost].[/trade] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2019-11-08 17:48:49 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2019-11-08 17:48:49 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+ 2019-11-08 17:49:12 DEBUG org.hibernate.SQL - select stock0_.stock_id as stock_id1_0_, stock0_.stock_brokerage as stock_br2_0_, stock0_.stock_name as stock_na3_0_, stock0_.stock_price as stock_pr4_0_, stock0_.stock_quantity as stock_qu5_0_ from stock stock0_
+ 2019-11-08 17:49:12 INFO  c.h.trade.controller.StockController - Inside get available stock details
+ 2019-11-08 18:05:11 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+ 2019-11-08 18:05:11 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+ 2019-11-08 18:05:11 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 2019-11-08 18:05:11 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 2019-11-08 18:05:11 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 
